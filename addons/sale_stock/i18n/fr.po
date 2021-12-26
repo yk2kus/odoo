@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-07-17 08:02+0000\n"
+"PO-Revision-Date: 2016-07-29 08:36+0000\n"
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: French (http://www.transifex.com/odoo/odoo-8/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -166,7 +166,7 @@ msgstr "Facture basée sur les bons de commande"
 msgid ""
 "Lets you transfer the entries under tasks defined for Project Management to the Timesheet line entries for particular date and particular user  with the effect of creating, editing and deleting either ways and to automatically creates project tasks from procurement lines.\n"
 "-This installs the modules project_timesheet and sale_service."
-msgstr ""
+msgstr "Vous donne la possibilité de transférer les données des tâches de gestion de projet vers les lignes de feuille de temps pour une date et un utilisateur donnés, avec pour effet de créer, éditer et supprimer dans les deux sens et de créer automatiquement des tâches depuis les lignes d'approvisionnement.\nCeci installe les modules 'project_timesheet' et 'sale_service'."
 
 #. module: sale_stock
 #: help:res.company,security_lead:0
@@ -369,11 +369,11 @@ msgstr "Vous tentez de vendre %.2f %s mais vous avez seulement %.2f %s disponibl
 #: code:addons/sale_stock/sale_stock.py:270
 #, python-format
 msgid ""
-"You selected a quantity of %d Units.\n"
+"You selected a quantity of %s %s.\n"
 "But it's not compatible with the selected packaging.\n"
 "Here is a proposition of quantities according to the packaging:\n"
 "EAN: %s Quantity: %s Type of ul: %s"
-msgstr "Vous avez sélectionné une quantité de %d unités.\nMais elle n'est pas compatible avec l'emballage sélectionné.\nCeci est une proposition de quantité en fonction de l'emballage :\nEAN : %s - Quantité : %s - Type de l'unité : %s"
+msgstr ""
 
 #. module: sale_stock
 #: view:sale.order:sale_stock.view_order_form_inherit

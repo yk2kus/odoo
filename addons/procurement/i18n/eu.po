@@ -3,14 +3,15 @@
 # * procurement
 # 
 # Translators:
-# Oihane Crucelaegui <oihanecruce@gmail.com>, 2015
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2017
+# oihane <oihanecruce@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-09-09 15:46+0000\n"
-"Last-Translator: Oihane Crucelaegui <oihanecruce@gmail.com>\n"
+"PO-Revision-Date: 2017-02-28 19:37+0000\n"
+"Last-Translator: Esther Martín Menéndez <esthermartin001@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-8/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +71,7 @@ msgstr "Gaituta"
 #. module: procurement
 #: selection:procurement.group,move_type:0
 msgid "All at once"
-msgstr ""
+msgstr "Dena batera"
 
 #. module: procurement
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
@@ -131,14 +132,14 @@ msgstr "Baieztatua"
 #: field:procurement.order.compute.all,create_uid:0
 #: field:procurement.rule,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Nork sortua"
 
 #. module: procurement
 #: field:procurement.group,create_date:0 field:procurement.order,create_date:0
 #: field:procurement.order.compute.all,create_date:0
 #: field:procurement.rule,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Noiz sortua"
 
 #. module: procurement
 #: help:procurement.order,message_last_post:0
@@ -158,7 +159,7 @@ msgstr "Deskribapena"
 #. module: procurement
 #: selection:procurement.order,state:0
 msgid "Done"
-msgstr ""
+msgstr "Egina"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -193,17 +194,17 @@ msgstr ""
 #. module: procurement
 #: field:procurement.order,message_follower_ids:0
 msgid "Followers"
-msgstr ""
+msgstr "Jarraitzaileak"
 
 #. module: procurement
 #: view:procurement.rule:procurement.view_procurement_rule_form
 msgid "General Information"
-msgstr ""
+msgstr "Informazio Orokorra"
 
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
 msgid "Group By"
-msgstr ""
+msgstr "Taldekatu"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.do_view_procurements
@@ -243,26 +244,26 @@ msgstr "Ekintza okerra!"
 #. module: procurement
 #: field:procurement.order,message_is_follower:0
 msgid "Is a Follower"
-msgstr ""
+msgstr "Jarraitzailea da"
 
 #. module: procurement
 #: field:procurement.order,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Azken mezuaren data"
 
 #. module: procurement
 #: field:procurement.group,write_uid:0 field:procurement.order,write_uid:0
 #: field:procurement.order.compute.all,write_uid:0
 #: field:procurement.rule,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Nork eguneratua"
 
 #. module: procurement
 #: field:procurement.group,write_date:0 field:procurement.order,write_date:0
 #: field:procurement.order.compute.all,write_date:0
 #: field:procurement.rule,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Noiz eguneratua"
 
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
@@ -287,7 +288,7 @@ msgstr "Mezuak"
 #. module: procurement
 #: help:procurement.order,message_ids:0
 msgid "Messages and communication history"
-msgstr ""
+msgstr "Komunikazio eta mezu erregistroa"
 
 #. module: procurement
 #: field:procurement.rule,name:0
@@ -303,7 +304,7 @@ msgstr ""
 #. module: procurement
 #: selection:procurement.order,priority:0
 msgid "Normal"
-msgstr ""
+msgstr "Arrunta"
 
 #. module: procurement
 #: selection:procurement.order,priority:0
@@ -323,14 +324,14 @@ msgstr ""
 #. module: procurement
 #: field:procurement.order,priority:0
 msgid "Priority"
-msgstr ""
+msgstr "Lehenetsi"
 
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_order
 #: view:procurement.order:procurement.procurement_form_view
 #: view:procurement.order:procurement.view_procurement_filter
 msgid "Procurement"
-msgstr ""
+msgstr "Hornikuntza"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.procurement_action5
@@ -378,7 +379,7 @@ msgstr ""
 #: view:procurement.group:procurement.procurement_group_form_view
 #: field:procurement.group,procurement_ids:0
 msgid "Procurements"
-msgstr ""
+msgstr "Hornikuntzak"
 
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
@@ -434,7 +435,7 @@ msgstr ""
 #. module: procurement
 #: field:procurement.group,name:0
 msgid "Reference"
-msgstr ""
+msgstr "Erreferentzia"
 
 #. module: procurement
 #: help:procurement.order,origin:0
@@ -487,7 +488,7 @@ msgstr ""
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
 msgid "Search Procurement"
-msgstr ""
+msgstr "Hornikuntza Bilatu"
 
 #. module: procurement
 #: field:procurement.rule,sequence:0
@@ -508,7 +509,7 @@ msgstr "Egoera"
 #. module: procurement
 #: field:procurement.order,message_summary:0
 msgid "Summary"
-msgstr ""
+msgstr "Laburpena"
 
 #. module: procurement
 #: help:procurement.rule,name:0
@@ -548,4 +549,4 @@ msgstr ""
 #. module: procurement
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
 msgid "or"
-msgstr ""
+msgstr "edo"

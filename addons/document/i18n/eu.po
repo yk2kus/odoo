@@ -3,13 +3,14 @@
 # * document
 # 
 # Translators:
+# oihane <oihanecruce@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-09-09 15:41+0000\n"
-"Last-Translator: Oihane Crucelaegui <oihanecruce@gmail.com>\n"
+"PO-Revision-Date: 2017-02-21 17:47+0000\n"
+"Last-Translator: oihane <oihanecruce@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-8/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. module: document
 #: field:report.document.file,nbr:0 field:report.document.user,nbr:0
 msgid "# of Files"
-msgstr ""
+msgstr "Fitxategi kop."
 
 #. module: document
 #. openerp-web
@@ -33,7 +34,7 @@ msgstr ""
 #: code:addons/document/document.py:117 code:addons/document/document.py:307
 #, python-format
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (kopia)"
 
 #. module: document
 #: model:ir.actions.act_window,help:document.action_document_file_form
@@ -79,7 +80,7 @@ msgstr ""
 #. module: document
 #: selection:report.document.user,month:0
 msgid "April"
-msgstr ""
+msgstr "Apirila"
 
 #. module: document
 #. openerp-web
@@ -156,7 +157,7 @@ msgstr ""
 #: field:document.directory.dctx,create_uid:0
 #: field:document.storage,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Nork sortua"
 
 #. module: document
 #: field:document.configuration,create_date:0
@@ -165,7 +166,7 @@ msgstr ""
 #: field:document.directory.dctx,create_date:0
 #: field:document.storage,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Noiz sortua"
 
 #. module: document
 #: field:document.directory,create_uid:0
@@ -196,7 +197,7 @@ msgstr ""
 #. module: document
 #: view:document.directory:document.view_document_directory_form
 msgid "Definition"
-msgstr ""
+msgstr "Definizio"
 
 #. module: document
 #: view:document.directory:document.view_document_directory_form
@@ -284,7 +285,7 @@ msgstr ""
 #. module: document
 #: model:ir.actions.act_window,name:document.action_document_file_form
 msgid "Documents"
-msgstr ""
+msgstr "Dokumentuak"
 
 #. module: document
 #: field:document.directory,domain:0
@@ -320,7 +321,7 @@ msgstr ""
 #. module: document
 #: field:document.directory.dctx,expr:0
 msgid "Expression"
-msgstr ""
+msgstr "Adierazpen"
 
 #. module: document
 #: field:document.directory.content.type,code:0
@@ -330,12 +331,12 @@ msgstr ""
 #. module: document
 #: selection:report.document.user,month:0
 msgid "February"
-msgstr ""
+msgstr "Otsaila"
 
 #. module: document
 #: field:document.directory.dctx,field:0
 msgid "Field"
-msgstr ""
+msgstr "Arlo"
 
 #. module: document
 #: help:document.directory,resource_field:0
@@ -347,18 +348,18 @@ msgstr ""
 #. module: document
 #: view:document.directory:document.view_document_directory_form
 msgid "Fields"
-msgstr ""
+msgstr "Eremuak"
 
 #. module: document
 #: field:report.document.user,datas_fname:0
 msgid "File Name"
-msgstr ""
+msgstr "Fitxategi Izena"
 
 #. module: document
 #: field:report.document.file,file_size:0
 #: field:report.document.user,file_size:0
 msgid "File Size"
-msgstr ""
+msgstr "Fitxategi tamaina"
 
 #. module: document
 #: model:ir.actions.act_window,name:document.action_view_size_month
@@ -425,12 +426,12 @@ msgstr ""
 #. module: document
 #: view:document.directory:document.view_document_directory_filter
 msgid "Group By"
-msgstr ""
+msgstr "Taldekatu"
 
 #. module: document
 #: field:document.directory,group_ids:0
 msgid "Groups"
-msgstr ""
+msgstr "Taldeak"
 
 #. module: document
 #: field:document.configuration,id:0 field:document.directory,id:0
@@ -471,7 +472,7 @@ msgstr ""
 #. module: document
 #: selection:report.document.user,month:0
 msgid "January"
-msgstr ""
+msgstr "Urtarrila"
 
 #. module: document
 #: selection:report.document.user,month:0
@@ -500,7 +501,7 @@ msgstr ""
 #: field:document.directory.dctx,write_uid:0
 #: field:document.storage,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Nork eguneratua"
 
 #. module: document
 #: field:document.configuration,write_date:0
@@ -509,7 +510,7 @@ msgstr ""
 #: field:document.directory.dctx,write_date:0
 #: field:document.storage,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Noiz eguneratua"
 
 #. module: document
 #: selection:report.document.user,month:0
@@ -549,7 +550,7 @@ msgstr "Hilabetea"
 #. module: document
 #: view:ir.attachment:document.view_attach_filter_inherit0
 msgid "My Document(s)"
-msgstr ""
+msgstr "Nire Dokumentua(k)"
 
 #. module: document
 #: field:document.directory,name:0
@@ -569,7 +570,7 @@ msgstr "Azaroa"
 #. module: document
 #: selection:report.document.user,month:0
 msgid "October"
-msgstr ""
+msgstr "Urria"
 
 #. module: document
 #: view:document.configuration:document.view_auto_config_form
@@ -630,12 +631,12 @@ msgstr ""
 #. module: document
 #: field:document.directory.content,report_id:0
 msgid "Report"
-msgstr ""
+msgstr "Txostena"
 
 #. module: document
 #: field:document.directory,ressource_id:0
 msgid "Resource ID"
-msgstr ""
+msgstr "Baliabide ID"
 
 #. module: document
 #: field:document.directory,ressource_type_id:0
@@ -667,7 +668,7 @@ msgstr ""
 #. module: document
 #: selection:report.document.user,month:0
 msgid "September"
-msgstr ""
+msgstr "Iraila"
 
 #. module: document
 #: view:document.directory:document.view_document_directory_form
@@ -775,9 +776,9 @@ msgstr ""
 #. module: document
 #: view:document.configuration:document.view_auto_config_form
 msgid "res_config_contents"
-msgstr ""
+msgstr "res_config_contents"
 
 #. module: document
 #: field:report.document.user,user:0
 msgid "unknown"
-msgstr ""
+msgstr "ezezaguna"

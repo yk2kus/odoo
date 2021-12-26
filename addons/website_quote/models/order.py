@@ -185,6 +185,7 @@ class sale_order(osv.osv):
                 'product_uom': line.product_uom_id.id,
                 'website_description': line.website_description,
                 'state': 'draft',
+                'delay': self.pool['sale.order']._get_customer_lead(cr, uid, line.product_id.product_tmpl_id)
             })
             lines.append((0, 0, data))
         options = []
@@ -317,6 +318,10 @@ class sale_order_option(osv.osv):
         if product.description_sale:
             self.name += '\n' + product.description_sale
         self.uom_id = product.product_tmpl_id.uom_id
+        if product and self.order_id.pricelist_id:
+            partner_id = self.order_id.partner_id.id
+            pricelist = self.order_id.pricelist_id.id
+            self.price_unit = self.order_id.pricelist_id.price_get(product.id, self.quantity, partner_id)[pricelist]
 
 
 class product_template(osv.Model):

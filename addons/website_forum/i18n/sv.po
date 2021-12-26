@@ -3,14 +3,15 @@
 # * website_forum
 # 
 # Translators:
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2016
 # Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-08-31 23:26+0000\n"
-"Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>\n"
+"PO-Revision-Date: 2017-02-19 07:24+0000\n"
+"Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>\n"
 "Language-Team: Swedish (http://www.transifex.com/odoo/odoo-8/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +44,7 @@ msgid ""
 "${object.company_id.email or ''}\n"
 "${object.company_id.phone or ''}\n"
 "</pre>"
-msgstr ""
+msgstr "\n<p>\nHej ${object.name},\n</p>\n<p>\nDu har blivit inbjuden att bekräfta din e-postadress för att ges tillgång tlll \"${object.company_id.name}\" F/S-forumen.\n</p>\n<p>\nVänligen klicka på följande länk för att bekräfta din e-postadress:\n</p>\n<ul>\n<li><a href=\"${ctx.get('token_url')}\">Bekräfta mitt konto för \"${object.company_id.name}\" F/S-forumen</a></li>\n</ul>\n<p>\nTack,\n</p>\n<pre>\n--\n${object.company_id.name eller ''}\n${object.company_id.email eller ''}\n${object.company_id.phone eller ''}\n</pre>"
 
 #. module: website_forum
 #: model:email.template,subject:website_forum.validation_email
@@ -53,7 +54,7 @@ msgstr ""
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "&times;"
-msgstr ""
+msgstr "&times;"
 
 #. module: website_forum
 #: view:website:website_forum.post_description_full
@@ -242,7 +243,7 @@ msgstr ""
 #: view:website:website_forum.header
 #: view:website:website_forum.user_detail_full
 msgid "Badges"
-msgstr ""
+msgstr "Emblem"
 
 #. module: website_forum
 #: view:website:website_forum.badge
@@ -454,7 +455,7 @@ msgstr "Land"
 #. module: website_forum
 #: view:website:website_forum.edit_profile
 msgid "Country..."
-msgstr ""
+msgstr "Land..."
 
 #. module: website_forum
 #: field:forum.post.vote,create_date:0
@@ -490,7 +491,7 @@ msgstr ""
 #. module: website_forum
 #: help:forum.forum,message_last_post:0 help:forum.post,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr ""
+msgstr "Datum för senast publicerade meddelandet i loggen."
 
 #. module: website_forum
 #: field:forum.forum,karma_unlink_all:0
@@ -660,7 +661,7 @@ msgstr "Följare"
 #: model:ir.ui.menu,name:website_forum.menu_website_forum
 #: model:website.menu,name:website_forum.menu_questions
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #. module: website_forum
 #: field:gamification.badge,level:0
@@ -676,7 +677,7 @@ msgstr ""
 #: view:forum.post:website_forum.view_forum_post_form
 #: model:ir.model,name:website_forum.model_forum_post
 msgid "Forum Post"
-msgstr ""
+msgstr "Foruminlägg"
 
 #. module: website_forum
 #: view:forum.post:website_forum.view_forum_post_list
@@ -695,12 +696,12 @@ msgstr ""
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_badge
 msgid "Gamification badge"
-msgstr ""
+msgstr "Spelifikationsemblem"
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_challenge
 msgid "Gamification challenge"
-msgstr ""
+msgstr "Spelifikationsutmaning"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_a_3
@@ -882,7 +883,7 @@ msgstr ""
 #. module: website_forum
 #: field:forum.forum,message_last_post:0 field:forum.post,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Senast meddelandedatum"
 
 #. module: website_forum
 #: field:forum.forum,write_uid:0 field:forum.post.reason,write_uid:0
@@ -1145,7 +1146,7 @@ msgstr ""
 #: field:forum.tag,post_ids:0
 #: model:ir.ui.menu,name:website_forum.menu_forum_posts
 msgid "Posts"
-msgstr ""
+msgstr "Inlägg"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
@@ -1331,7 +1332,7 @@ msgstr ""
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_forum_tag
 msgid "Tag"
-msgstr ""
+msgstr "Etikett"
 
 #. module: website_forum
 #: field:forum.post,tag_ids:0 view:website:website_forum.ask_question
@@ -1489,32 +1490,32 @@ msgstr "Webbplats"
 #. module: website_forum
 #: field:forum.forum,website_message_ids:0
 msgid "Website Messages"
-msgstr ""
+msgstr "Webbplatsmeddelanden"
 
 #. module: website_forum
 #: help:forum.forum,website_message_ids:0
 msgid "Website communication history"
-msgstr ""
+msgstr "Webbplatsens kommunikationshistorik"
 
 #. module: website_forum
 #: field:forum.forum,website_meta_description:0
 #: field:forum.post,website_meta_description:0
 #: field:forum.tag,website_meta_description:0
 msgid "Website meta description"
-msgstr ""
+msgstr "Webbplatsens metabeskrivning"
 
 #. module: website_forum
 #: field:forum.forum,website_meta_keywords:0
 #: field:forum.post,website_meta_keywords:0
 #: field:forum.tag,website_meta_keywords:0
 msgid "Website meta keywords"
-msgstr ""
+msgstr "Webbplats metasökord"
 
 #. module: website_forum
 #: field:forum.forum,website_meta_title:0
 #: field:forum.post,website_meta_title:0 field:forum.tag,website_meta_title:0
 msgid "Website meta title"
-msgstr ""
+msgstr "Webbplatsens metatitel"
 
 #. module: website_forum
 #: view:website:website_forum.post_answer
@@ -1786,9 +1787,9 @@ msgstr ""
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "website"
-msgstr ""
+msgstr "webbplats"
 
 #. module: website_forum
 #: view:website:website_forum.display_post
 msgid "with"
-msgstr ""
+msgstr "med"

@@ -3,13 +3,15 @@
 # * crm_claim
 # 
 # Translators:
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2017
+# oihane <oihanecruce@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-09-11 08:15+0000\n"
-"Last-Translator: Oihane Crucelaegui <oihanecruce@gmail.com>\n"
+"PO-Revision-Date: 2017-02-22 11:48+0000\n"
+"Last-Translator: Esther Martín Menéndez <esthermartin001@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-8/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,23 +22,23 @@ msgstr ""
 #. module: crm_claim
 #: field:res.partner,claim_count:0
 msgid "# Claims"
-msgstr ""
+msgstr "Erreklamazio kop."
 
 #. module: crm_claim
 #: field:crm.claim.report,email:0
 msgid "# Emails"
-msgstr ""
+msgstr "Email kop."
 
 #. module: crm_claim
 #: field:crm.claim.report,nbr:0
 msgid "# of Claims"
-msgstr ""
+msgstr "Erreklamazio kop."
 
 #. module: crm_claim
 #: code:addons/crm_claim/crm_claim.py:167
 #, python-format
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (kopia)"
 
 #. module: crm_claim
 #: model:ir.actions.act_window,help:crm_claim.crm_case_categ_claim0
@@ -101,7 +103,7 @@ msgstr ""
 #. module: crm_claim
 #: model:ir.ui.menu,name:crm_claim.menu_crm_case_claim-act
 msgid "Categories"
-msgstr ""
+msgstr "Kategoriak"
 
 #. module: crm_claim
 #: field:crm.claim,categ_id:0
@@ -115,7 +117,7 @@ msgstr "Kategoria"
 #: model:ir.model,name:crm_claim.model_crm_claim
 #: model:ir.ui.menu,name:crm_claim.menu_config_claim
 msgid "Claim"
-msgstr ""
+msgstr "Erreklamazioa"
 
 #. module: crm_claim
 #: model:ir.actions.act_window,name:crm_claim.crm_claim_categ_action
@@ -184,7 +186,7 @@ msgstr ""
 #: model:ir.ui.menu,name:crm_claim.menu_crm_case_claims
 #: view:res.partner:crm_claim.view_claim_res_partner_info_form
 msgid "Claims"
-msgstr ""
+msgstr "Erreklamazioak"
 
 #. module: crm_claim
 #: model:ir.actions.act_window,name:crm_claim.action_report_crm_claim
@@ -200,12 +202,12 @@ msgstr ""
 #. module: crm_claim
 #: field:crm.claim,date_closed:0
 msgid "Closed"
-msgstr ""
+msgstr "Itxita"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 msgid "Closure"
-msgstr ""
+msgstr "Itxiera"
 
 #. module: crm_claim
 #: field:crm.claim.stage,case_default:0
@@ -237,12 +239,12 @@ msgstr ""
 #. module: crm_claim
 #: field:crm.claim,create_uid:0 field:crm.claim.stage,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Nork sortua"
 
 #. module: crm_claim
 #: field:crm.claim.stage,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Noiz sortua"
 
 #. module: crm_claim
 #: field:crm.claim,create_date:0
@@ -288,7 +290,7 @@ msgstr ""
 #. module: crm_claim
 #: field:crm.claim,email_from:0
 msgid "Email"
-msgstr ""
+msgstr "Emaila"
 
 #. module: crm_claim
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
@@ -303,18 +305,18 @@ msgstr ""
 #. module: crm_claim
 #: view:crm.claim:crm_claim.crm_case_claims_form_view
 msgid "Follow Up"
-msgstr ""
+msgstr "Jarraitu"
 
 #. module: crm_claim
 #: field:crm.claim,message_follower_ids:0
 msgid "Followers"
-msgstr ""
+msgstr "Jarraitzaileak"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
 msgid "Group By"
-msgstr ""
+msgstr "Taldekatu"
 
 #. module: crm_claim
 #: model:ir.actions.act_window,help:crm_claim.action_report_crm_claim
@@ -360,22 +362,22 @@ msgstr "Lanean"
 #. module: crm_claim
 #: field:crm.claim,message_is_follower:0
 msgid "Is a Follower"
-msgstr ""
+msgstr "Jarraitzailea da"
 
 #. module: crm_claim
 #: field:crm.claim,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Azken mezuaren data"
 
 #. module: crm_claim
 #: field:crm.claim,write_uid:0 field:crm.claim.stage,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Nork eguneratua"
 
 #. module: crm_claim
 #: field:crm.claim.stage,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Noiz eguneratua"
 
 #. module: crm_claim
 #: help:crm.claim.stage,section_ids:0
@@ -397,12 +399,12 @@ msgstr "Mezuak"
 #. module: crm_claim
 #: help:crm.claim,message_ids:0
 msgid "Messages and communication history"
-msgstr ""
+msgstr "Komunikazio eta mezu erregistroa"
 
 #. module: crm_claim
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
 msgid "Month of claim"
-msgstr ""
+msgstr "Erreklamazioaren hilabetea"
 
 #. module: crm_claim
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
@@ -422,7 +424,7 @@ msgstr ""
 #. module: crm_claim
 #: model:crm.claim.stage,name:crm_claim.stage_claim1
 msgid "New"
-msgstr ""
+msgstr "Berria"
 
 #. module: crm_claim
 #: field:crm.claim,action_next:0
@@ -443,7 +445,7 @@ msgstr ""
 #. module: crm_claim
 #: selection:crm.claim,priority:0 selection:crm.claim.report,priority:0
 msgid "Normal"
-msgstr ""
+msgstr "Arrunta"
 
 #. module: crm_claim
 #: help:crm.claim.report,delay_close:0
@@ -468,7 +470,7 @@ msgstr "Kidea"
 #. module: crm_claim
 #: field:crm.claim,partner_phone:0
 msgid "Phone"
-msgstr ""
+msgstr "Telefono"
 
 #. module: crm_claim
 #: model:crm.case.categ,name:crm_claim.categ_claim3
@@ -488,12 +490,12 @@ msgstr ""
 #. module: crm_claim
 #: field:crm.claim,priority:0 field:crm.claim.report,priority:0
 msgid "Priority"
-msgstr ""
+msgstr "Lehenetsi"
 
 #. module: crm_claim
 #: field:crm.claim,ref:0
 msgid "Reference"
-msgstr ""
+msgstr "Erreferentzia"
 
 #. module: crm_claim
 #: model:crm.claim.stage,name:crm_claim.stage_claim3
@@ -519,7 +521,7 @@ msgstr ""
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 #: field:crm.claim,user_id:0
 msgid "Responsible"
-msgstr ""
+msgstr "Arduraduna"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
@@ -557,12 +559,12 @@ msgstr ""
 #. module: crm_claim
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
 msgid "Search"
-msgstr ""
+msgstr "Bilatu"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 msgid "Search Claims"
-msgstr ""
+msgstr "Erreklamazioak Bilatu"
 
 #. module: crm_claim
 #: field:crm.claim.report,section_id:0
@@ -605,7 +607,7 @@ msgstr ""
 #. module: crm_claim
 #: field:crm.claim,message_summary:0
 msgid "Summary"
-msgstr ""
+msgstr "Laburpena"
 
 #. module: crm_claim
 #: help:crm.claim,email_cc:0
@@ -649,7 +651,7 @@ msgstr ""
 #. module: crm_claim
 #: field:crm.claim.report,user_id:0
 msgid "User"
-msgstr ""
+msgstr "Erabiltzailea"
 
 #. module: crm_claim
 #: model:crm.case.categ,name:crm_claim.categ_claim2

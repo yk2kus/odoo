@@ -3,14 +3,15 @@
 # * pad
 # 
 # Translators:
-# Oihane Crucelaegui <oihanecruce@gmail.com>, 2015
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2017
+# oihane <oihanecruce@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-09-09 15:41+0000\n"
-"Last-Translator: Oihane Crucelaegui <oihanecruce@gmail.com>\n"
+"PO-Revision-Date: 2017-01-28 15:37+0000\n"
+"Last-Translator: Esther Martín Menéndez <esthermartin001@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-8/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,12 +27,12 @@ msgstr "Enpresak"
 #. module: pad
 #: field:pad.common,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Nork sortua"
 
 #. module: pad
 #: field:pad.common,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Noiz sortua"
 
 #. module: pad
 #: code:addons/pad/pad.py:52
@@ -57,12 +58,12 @@ msgstr "ID"
 #. module: pad
 #: field:pad.common,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Nork eguneratua"
 
 #. module: pad
 #: field:pad.common,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Noiz eguneratua"
 
 #. module: pad
 #: field:res.company,pad_key:0
@@ -113,4 +114,4 @@ msgstr ""
 #. module: pad
 #: view:res.company:pad.view_company_form_with_pad
 msgid "e.g. beta.primarypad.com"
-msgstr ""
+msgstr "adb. beta.primarypad.com"

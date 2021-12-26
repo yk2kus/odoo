@@ -3,14 +3,15 @@
 # * report_intrastat
 # 
 # Translators:
-# Oihane Crucelaegui <oihanecruce@gmail.com>, 2015
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2017
+# oihane <oihanecruce@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-09-09 15:41+0000\n"
-"Last-Translator: Oihane Crucelaegui <oihanecruce@gmail.com>\n"
+"PO-Revision-Date: 2017-02-22 11:53+0000\n"
+"Last-Translator: Esther Martín Menéndez <esthermartin001@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-8/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +27,7 @@ msgstr "Kopurua"
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "April"
-msgstr ""
+msgstr "Apirila"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
@@ -36,7 +37,7 @@ msgstr "Abuztua"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Base"
-msgstr ""
+msgstr "Oinarri"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -51,7 +52,7 @@ msgstr ""
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_res_country
 msgid "Country"
-msgstr ""
+msgstr "Herrialdea"
 
 #. module: report_intrastat
 #: field:report.intrastat,code:0
@@ -61,12 +62,12 @@ msgstr ""
 #. module: report_intrastat
 #: field:report.intrastat.code,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Nork sortua"
 
 #. module: report_intrastat
 #: field:report.intrastat.code,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Noiz sortua"
 
 #. module: report_intrastat
 #: field:report.intrastat,currency_id:0
@@ -102,12 +103,12 @@ msgstr ""
 #. module: report_intrastat
 #: selection:report.intrastat,type:0
 msgid "Export"
-msgstr ""
+msgstr "Esportatu"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "February"
-msgstr ""
+msgstr "Otsaila"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -122,7 +123,7 @@ msgstr "ID"
 #. module: report_intrastat
 #: selection:report.intrastat,type:0
 msgid "Import"
-msgstr ""
+msgstr "Inportatu"
 
 #. module: report_intrastat
 #: model:ir.actions.act_window,name:report_intrastat.action_report_intrastat_tree_all
@@ -170,7 +171,7 @@ msgstr ""
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Invoice"
-msgstr ""
+msgstr "Faktura"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -180,7 +181,7 @@ msgstr ""
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "January"
-msgstr ""
+msgstr "Urtarrila"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
@@ -195,12 +196,12 @@ msgstr "Ekaina"
 #. module: report_intrastat
 #: field:report.intrastat.code,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Nork eguneratua"
 
 #. module: report_intrastat
 #: field:report.intrastat.code,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Noiz eguneratua"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
@@ -225,7 +226,7 @@ msgstr "Azaroa"
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "October"
-msgstr ""
+msgstr "Urria"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -245,7 +246,7 @@ msgstr ""
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Txantiloi produktua"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -260,7 +261,7 @@ msgstr ""
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "September"
-msgstr ""
+msgstr "Iraila"
 
 #. module: report_intrastat
 #: field:report.intrastat,ref:0
@@ -295,7 +296,7 @@ msgstr "Zergak"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Total"
-msgstr ""
+msgstr "Guztira"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -315,12 +316,12 @@ msgstr "Unitateko prezioa"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Unit of measure"
-msgstr ""
+msgstr "Neurketa unitatea"
 
 #. module: report_intrastat
 #: field:report.intrastat,value:0
 msgid "Value"
-msgstr ""
+msgstr "Balioa"
 
 #. module: report_intrastat
 #: field:report.intrastat,weight:0

@@ -3,13 +3,15 @@
 # * l10n_be_intrastat
 # 
 # Translators:
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2017
+# oihane <oihanecruce@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-03 18:32+0000\n"
-"PO-Revision-Date: 2015-09-09 15:41+0000\n"
-"Last-Translator: Oihane Crucelaegui <oihanecruce@gmail.com>\n"
+"PO-Revision-Date: 2017-02-21 17:35+0000\n"
+"Last-Translator: Esther Martín Menéndez <esthermartin001@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-8/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +22,7 @@ msgstr ""
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0
 msgid "April"
-msgstr ""
+msgstr "Apirila"
 
 #. module: l10n_be_intrastat
 #: field:l10n_be_intrastat_xml.xml_decl,arrivals:0
@@ -74,12 +76,12 @@ msgstr ""
 #. module: l10n_be_intrastat
 #: field:l10n_be_intrastat.region,country_id:0
 msgid "Country"
-msgstr ""
+msgstr "Herrialdea"
 
 #. module: l10n_be_intrastat
 #: view:l10n_be_intrastat_xml.xml_decl:l10n_be_intrastat.view_intrastat_declaration_xml
 msgid "Create XML"
-msgstr ""
+msgstr "Crear XML"
 
 #. module: l10n_be_intrastat
 #: field:l10n_be_intrastat.region,create_uid:0
@@ -87,7 +89,7 @@ msgstr ""
 #: field:l10n_be_intrastat.transport_mode,create_uid:0
 #: field:l10n_be_intrastat_xml.xml_decl,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Nork sortua"
 
 #. module: l10n_be_intrastat
 #: field:l10n_be_intrastat.region,create_date:0
@@ -95,7 +97,7 @@ msgstr ""
 #: field:l10n_be_intrastat.transport_mode,create_date:0
 #: field:l10n_be_intrastat_xml.xml_decl,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Noiz sortua"
 
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0
@@ -149,12 +151,12 @@ msgstr ""
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0
 msgid "February"
-msgstr ""
+msgstr "Otsaila"
 
 #. module: l10n_be_intrastat
 #: field:l10n_be_intrastat_xml.xml_decl,name:0
 msgid "File Name"
-msgstr ""
+msgstr "Fitxategi Izena"
 
 #. module: l10n_be_intrastat
 #: model:l10n_be_intrastat.region,name:l10n_be_intrastat.intrastat_region_1
@@ -282,12 +284,12 @@ msgstr ""
 #. module: l10n_be_intrastat
 #: model:ir.model,name:l10n_be_intrastat.model_account_invoice
 msgid "Invoice"
-msgstr ""
+msgstr "Faktura"
 
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0
 msgid "January"
-msgstr ""
+msgstr "Urtarrila"
 
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0
@@ -305,7 +307,7 @@ msgstr "Ekaina"
 #: field:l10n_be_intrastat.transport_mode,write_uid:0
 #: field:l10n_be_intrastat_xml.xml_decl,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Nork eguneratua"
 
 #. module: l10n_be_intrastat
 #: field:l10n_be_intrastat.region,write_date:0
@@ -313,7 +315,7 @@ msgstr ""
 #: field:l10n_be_intrastat.transport_mode,write_date:0
 #: field:l10n_be_intrastat_xml.xml_decl,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Noiz eguneratua"
 
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0
@@ -343,7 +345,7 @@ msgstr "Azaroa"
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0
 msgid "October"
-msgstr ""
+msgstr "Urria"
 
 #. module: l10n_be_intrastat
 #: model:ir.model,name:l10n_be_intrastat.model_product_product
@@ -380,7 +382,7 @@ msgstr "Gorde"
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,month:0
 msgid "September"
-msgstr ""
+msgstr "Iraila"
 
 #. module: l10n_be_intrastat
 #: selection:l10n_be_intrastat_xml.xml_decl,arrivals:0
@@ -441,7 +443,7 @@ msgstr ""
 #. module: l10n_be_intrastat
 #: model:ir.model,name:l10n_be_intrastat.model_stock_warehouse
 msgid "Warehouse"
-msgstr ""
+msgstr "Biltegia"
 
 #. module: l10n_be_intrastat
 #: view:l10n_be_intrastat_xml.xml_decl:l10n_be_intrastat.view_intrastat_declaration_xml
@@ -462,4 +464,4 @@ msgstr ""
 #. module: l10n_be_intrastat
 #: view:l10n_be_intrastat_xml.xml_decl:l10n_be_intrastat.view_intrastat_declaration_xml
 msgid "or"
-msgstr ""
+msgstr "edo"

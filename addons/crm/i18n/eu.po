@@ -3,13 +3,15 @@
 # * crm
 # 
 # Translators:
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2017
+# oihane <oihanecruce@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-07-17 06:59+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2017-02-23 14:48+0000\n"
+"Last-Translator: Esther Martín Menéndez <esthermartin001@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-8/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +22,7 @@ msgstr ""
 #. module: crm
 #: field:crm.lead,meeting_count:0 field:res.partner,meeting_count:0
 msgid "# Meetings"
-msgstr ""
+msgstr "Bilera kop."
 
 #. module: crm
 #: field:crm.lead.report,nbr_cases:0 field:crm.opportunity.report,nbr_cases:0
@@ -258,7 +260,7 @@ msgstr "Gaituta"
 #: view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor
 msgid "Address"
-msgstr ""
+msgstr "Helbidea"
 
 #. module: crm
 #: view:sale.config.settings:crm.view_sale_config_settings
@@ -268,12 +270,12 @@ msgstr ""
 #. module: crm
 #: field:crm.case.section,alias_id:0
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 #. module: crm
 #: field:sale.config.settings,alias_domain:0
 msgid "Alias Domain"
-msgstr ""
+msgstr "Domeinu deitura"
 
 #. module: crm
 #: code:addons/crm/base_partner_merge.py:304
@@ -366,7 +368,7 @@ msgstr ""
 #. module: crm
 #: selection:crm.case.stage,type:0
 msgid "Both"
-msgstr ""
+msgstr "Biak"
 
 #. module: crm
 #: field:crm.lead,message_bounce:0
@@ -377,7 +379,7 @@ msgstr ""
 #: model:ir.filters,name:crm.filter_leads_country
 #: model:ir.filters,name:crm.filter_opportunity_country
 msgid "By Country"
-msgstr ""
+msgstr "Herrialdeka"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_crm_phonecall_sales_team
@@ -388,7 +390,7 @@ msgstr ""
 #: model:ir.filters,name:crm.filter_leads_salesperson
 #: model:ir.filters,name:crm.filter_opportunity_salesperson
 msgid "By Salespersons"
-msgstr ""
+msgstr "Saltzaileko"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_report
@@ -421,7 +423,7 @@ msgstr ""
 #: view:crm.lead:crm.crm_case_kanban_view_leads
 #: view:res.partner:crm.view_partners_form_crm1
 msgid "Calls"
-msgstr ""
+msgstr "Deiak"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -479,7 +481,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.menu,name:crm.menu_crm_case_phonecall-act
 msgid "Categories"
-msgstr ""
+msgstr "Kategoriak"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
@@ -511,7 +513,7 @@ msgstr ""
 #: field:crm.tracking.mixin,medium_id:0
 #: view:crm.tracking.source:crm.crm_tracking_source_view_form
 msgid "Channel"
-msgstr ""
+msgstr "Kanala"
 
 #. module: crm
 #: field:crm.tracking.medium,name:0
@@ -549,7 +551,7 @@ msgstr ""
 #: view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor field:crm.lead,city:0
 msgid "City"
-msgstr ""
+msgstr "Herria"
 
 #. module: crm
 #: help:crm.lead,categ_ids:0
@@ -583,7 +585,7 @@ msgstr ""
 #. module: crm
 #: field:crm.lead,date_closed:0 field:crm.phonecall,date_closed:0
 msgid "Closed"
-msgstr ""
+msgstr "Itxita"
 
 #. module: crm
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:105
@@ -610,7 +612,7 @@ msgstr "Enpresa"
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
 msgid "Company Name"
-msgstr ""
+msgstr "Enpresaren Izena"
 
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation-view
@@ -631,17 +633,17 @@ msgstr ""
 #: field:crm.phonecall,partner_id:0
 #: field:crm.phonecall2phonecall,contact_name:0
 msgid "Contact"
-msgstr ""
+msgstr "Kontaktua"
 
 #. module: crm
 #: field:crm.lead,contact_name:0
 msgid "Contact Name"
-msgstr ""
+msgstr "Kontaktuaren Izena"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,partner_ids:0
 msgid "Contacts"
-msgstr ""
+msgstr "Kontaktuak"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_segmentation_tree-act
@@ -652,7 +654,7 @@ msgstr ""
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation-view
 msgid "Continue Process"
-msgstr ""
+msgstr "Prozesua Jarraitu"
 
 #. module: crm
 #: field:crm.segmentation.line,expr_name:0
@@ -716,7 +718,7 @@ msgstr ""
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 #: field:crm.opportunity.report,country_id:0
 msgid "Country"
-msgstr ""
+msgstr "Herrialdea"
 
 #. module: crm
 #: field:crm.phonecall.report,create_date:0
@@ -749,7 +751,7 @@ msgstr ""
 #: field:crm.tracking.medium,create_uid:0
 #: field:crm.tracking.source,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Nork sortua"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,create_date:0
@@ -767,7 +769,7 @@ msgstr ""
 #: field:crm.tracking.medium,create_date:0
 #: field:crm.tracking.source,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Noiz sortua"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -823,12 +825,12 @@ msgstr "Kidea"
 #: code:addons/crm/crm_lead.py:1000
 #, python-format
 msgid "Customer Email"
-msgstr ""
+msgstr "Kidearen Emaila"
 
 #. module: crm
 #: field:crm.lead,partner_name:0
 msgid "Customer Name"
-msgstr ""
+msgstr "Kidearen Izena"
 
 #. module: crm
 #: field:crm.phonecall,date:0 field:crm.phonecall2phonecall,date:0
@@ -906,7 +908,7 @@ msgstr ""
 #. module: crm
 #: view:crm.lead:crm.crm_case_kanban_view_leads
 msgid "Delete"
-msgstr ""
+msgstr "Ezabatu"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
@@ -921,7 +923,7 @@ msgstr "Deskribapena"
 #. module: crm
 #: view:crm.phonecall:crm.crm_case_phone_form_view
 msgid "Description..."
-msgstr ""
+msgstr "Deskribapena..."
 
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor5
@@ -953,7 +955,7 @@ msgstr ""
 #. module: crm
 #: field:crm.phonecall,duration:0 field:crm.phonecall.report,duration:0
 msgid "Duration"
-msgstr ""
+msgstr "Iraupena"
 
 #. module: crm
 #: help:crm.phonecall,duration:0
@@ -963,14 +965,14 @@ msgstr ""
 #. module: crm
 #: view:crm.lead:crm.crm_case_kanban_view_leads
 msgid "Edit..."
-msgstr ""
+msgstr "Editatu..."
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,group_by_email:0
 #: view:crm.lead:crm.crm_case_form_view_oppor field:crm.lead,email_from:0
 #: field:crm.phonecall,email_from:0
 msgid "Email"
-msgstr ""
+msgstr "Emaila"
 
 #. module: crm
 #: view:crm.case.section:crm.sales_team_form_view_in_crm
@@ -1072,7 +1074,7 @@ msgstr ""
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 msgid "Extended Filters"
-msgstr ""
+msgstr "Extended Filters"
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -1087,12 +1089,12 @@ msgstr "Informazio gehigarria"
 #. module: crm
 #: field:crm.lead,fax:0
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0
 msgid "Finished"
-msgstr ""
+msgstr "Bukatuta"
 
 #. module: crm
 #: field:crm.case.stage,fold:0
@@ -1103,7 +1105,7 @@ msgstr ""
 #: field:crm.lead,message_follower_ids:0
 #: field:crm.phonecall,message_follower_ids:0
 msgid "Followers"
-msgstr ""
+msgstr "Jarraitzaileak"
 
 #. module: crm
 #: code:addons/crm/base_partner_merge.py:301
@@ -1136,7 +1138,7 @@ msgstr ""
 #. module: crm
 #: field:crm.lead,function:0
 msgid "Function"
-msgstr ""
+msgstr "Funtzioa"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_oppor
@@ -1156,7 +1158,7 @@ msgstr ""
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 msgid "Group By"
-msgstr ""
+msgstr "Taldekatu"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,number_group:0
@@ -1209,12 +1211,12 @@ msgstr ""
 #: field:crm.tracking.medium,id:0 field:crm.tracking.mixin,id:0
 #: field:crm.tracking.source,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: crm
 #: field:base.partner.merge.line,aggr_ids:0
 msgid "Ids"
-msgstr ""
+msgstr "Ids"
 
 #. module: crm
 #: help:crm.lead,message_unread:0 help:crm.phonecall,message_unread:0
@@ -1271,7 +1273,7 @@ msgstr ""
 #: field:crm.lead,message_is_follower:0
 #: field:crm.phonecall,message_is_follower:0
 msgid "Is a Follower"
-msgstr ""
+msgstr "Jarraitzailea da"
 
 #. module: crm
 #: code:addons/crm/crm_phonecall.py:291
@@ -1297,7 +1299,7 @@ msgstr ""
 #. module: crm
 #: field:crm.lead,message_last_post:0 field:crm.phonecall,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Azken mezuaren data"
 
 #. module: crm
 #: field:crm.lead,date_last_stage_update:0
@@ -1319,7 +1321,7 @@ msgstr ""
 #: field:crm.tracking.campaign,write_uid:0
 #: field:crm.tracking.medium,write_uid:0 field:crm.tracking.source,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Nork eguneratua"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,write_date:0
@@ -1336,7 +1338,7 @@ msgstr ""
 #: field:crm.tracking.medium,write_date:0
 #: field:crm.tracking.source,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Noiz eguneratua"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:893 selection:crm.case.stage,type:0
@@ -1347,18 +1349,18 @@ msgstr ""
 #: selection:crm.opportunity.report,type:0
 #, python-format
 msgid "Lead"
-msgstr ""
+msgstr "Ekimena"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 msgid "Lead / Customer"
-msgstr ""
+msgstr "Ekimena / Kidea"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_create
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead
 msgid "Lead Created"
-msgstr ""
+msgstr "Ekimena Sortuta"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner
@@ -1368,12 +1370,12 @@ msgstr ""
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_create
 msgid "Lead created"
-msgstr ""
+msgstr "Ekimena sortuta"
 
 #. module: crm
 #: field:crm.phonecall,opportunity_id:0 model:ir.model,name:crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr ""
+msgstr "Ekimena/Aukera"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_lead_mass_mail
@@ -1389,13 +1391,13 @@ msgstr ""
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_lead
 #: model:ir.ui.menu,name:crm.menu_crm_leads
 msgid "Leads"
-msgstr ""
+msgstr "Ekimenak"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:84
 #, python-format
 msgid "Leads / Opportunities"
-msgstr ""
+msgstr "Ekimenak / Aukerak"
 
 #. module: crm
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
@@ -1467,7 +1469,7 @@ msgstr ""
 #. module: crm
 #: field:crm.merge.opportunity,opportunity_ids:0
 msgid "Leads/Opportunities"
-msgstr ""
+msgstr "Ekimenak / Aukerak"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,line_ids:0
@@ -1525,7 +1527,7 @@ msgstr ""
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 msgid "Lost"
-msgstr ""
+msgstr "Galduta"
 
 #. module: crm
 #: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0
@@ -1606,7 +1608,7 @@ msgstr ""
 #: view:crm.phonecall:crm.crm_case_inbound_phone_tree_view
 #: view:crm.phonecall:crm.crm_case_phone_tree_view
 msgid "Meeting"
-msgstr ""
+msgstr "Bilera"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:1072
@@ -1622,7 +1624,7 @@ msgstr ""
 #: view:res.partner:crm.view_partners_form_crm1
 #: field:res.partner,meeting_ids:0
 msgid "Meetings"
-msgstr ""
+msgstr "Bilera kop."
 
 #. module: crm
 #: view:crm.merge.opportunity:crm.merge_opportunity_form
@@ -1719,7 +1721,7 @@ msgstr "Mezuak"
 #. module: crm
 #: help:crm.lead,message_ids:0 help:crm.phonecall,message_ids:0
 msgid "Messages and communication history"
-msgstr ""
+msgstr "Komunikazio eta mezu erregistroa"
 
 #. module: crm
 #: field:base.partner.merge.line,min_id:0
@@ -1730,12 +1732,12 @@ msgstr ""
 #: view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor
 msgid "Misc"
-msgstr ""
+msgstr "Misc"
 
 #. module: crm
 #: field:crm.lead,mobile:0 field:crm.phonecall,partner_mobile:0
 msgid "Mobile"
-msgstr ""
+msgstr "Mugikorra"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -1750,7 +1752,7 @@ msgstr ""
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 msgid "My Leads"
-msgstr ""
+msgstr "Nire ekimenak"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
@@ -1793,14 +1795,14 @@ msgstr ""
 #: model:crm.case.stage,name:crm.stage_lead1
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
 msgid "New"
-msgstr ""
+msgstr "Berria"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 msgid "New Mail"
-msgstr ""
+msgstr "Mail Berria"
 
 #. module: crm
 #: model:crm.tracking.source,name:crm.crm_source_newsletter
@@ -1844,7 +1846,7 @@ msgstr ""
 #: selection:crm.phonecall,priority:0
 #: selection:crm.phonecall.report,priority:0
 msgid "Normal"
-msgstr ""
+msgstr "Arrunta"
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -1859,7 +1861,7 @@ msgstr ""
 #. module: crm
 #: field:crm.phonecall2phonecall,note:0
 msgid "Note"
-msgstr ""
+msgstr "Oharra"
 
 #. module: crm
 #: field:crm.lead,description:0
@@ -1882,7 +1884,7 @@ msgstr ""
 #. module: crm
 #: field:crm.case.categ,object_id:0
 msgid "Object Name"
-msgstr ""
+msgstr "Objektu Izena"
 
 #. module: crm
 #: code:addons/crm/base_partner_merge.py:316
@@ -1907,7 +1909,7 @@ msgstr "Ireki salmenta menua"
 #. module: crm
 #: field:crm.phonecall,date_open:0
 msgid "Opened"
-msgstr ""
+msgstr "Irekita"
 
 #. module: crm
 #: field:crm.phonecall.report,opening_date:0
@@ -1935,7 +1937,7 @@ msgstr ""
 #: view:res.partner:crm.crm_lead_partner_kanban_view
 #: view:res.partner:crm.view_partners_form_crm1
 msgid "Opportunities"
-msgstr ""
+msgstr "Aukerak"
 
 #. module: crm
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
@@ -1984,13 +1986,13 @@ msgstr ""
 #: field:res.partner,opportunity_count:0
 #, python-format
 msgid "Opportunity"
-msgstr ""
+msgstr "Aukera"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_lost
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_lost
 msgid "Opportunity Lost"
-msgstr ""
+msgstr "Aukera Galduta"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_stage
@@ -2001,17 +2003,17 @@ msgstr ""
 #: model:mail.message.subtype,name:crm.mt_lead_won
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_won
 msgid "Opportunity Won"
-msgstr ""
+msgstr "Aukera Irabazita"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_lost
 msgid "Opportunity lost"
-msgstr ""
+msgstr "Aukera galduta"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_won
 msgid "Opportunity won"
-msgstr ""
+msgstr "Aukera irabazita"
 
 #. module: crm
 #: field:crm.lead,opt_out:0
@@ -2036,7 +2038,7 @@ msgstr ""
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor8
 msgid "Other"
-msgstr ""
+msgstr "Beste"
 
 #. module: crm
 #: view:crm.phonecall:crm.crm_case_phone_form_view
@@ -2130,13 +2132,13 @@ msgstr ""
 #. module: crm
 #: selection:crm.phonecall,state:0 selection:crm.phonecall.report,state:0
 msgid "Pending"
-msgstr ""
+msgstr "Zain"
 
 #. module: crm
 #: field:crm.lead,phone:0 view:crm.phonecall:crm.crm_case_phone_form_view
 #: field:crm.phonecall,partner_phone:0 field:crm.phonecall2phonecall,phone:0
 msgid "Phone"
-msgstr ""
+msgstr "Telefono"
 
 #. module: crm
 #: code:addons/crm/crm_phonecall.py:219
@@ -2258,7 +2260,7 @@ msgstr ""
 #: field:crm.opportunity.report,priority:0 field:crm.phonecall,priority:0
 #: field:crm.phonecall.report,priority:0
 msgid "Priority"
-msgstr ""
+msgstr "Lehenetsi"
 
 #. module: crm
 #: field:crm.lead.report,probability:0
@@ -2304,7 +2306,7 @@ msgstr ""
 #. module: crm
 #: field:crm.lead,ref:0
 msgid "Reference"
-msgstr ""
+msgstr "Erreferentzia"
 
 #. module: crm
 #: field:crm.lead,ref2:0
@@ -2350,7 +2352,7 @@ msgstr ""
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 #: field:crm.phonecall,user_id:0
 msgid "Responsible"
-msgstr ""
+msgstr "Arduraduna"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_leads_revenue_per_lead
@@ -2494,17 +2496,17 @@ msgstr ""
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 msgid "Search"
-msgstr ""
+msgstr "Bilatu"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 msgid "Search Leads"
-msgstr ""
+msgstr "Bilatu Ekimenak"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
 msgid "Search Opportunities"
-msgstr ""
+msgstr "Bilatu Aukerak"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -2580,7 +2582,7 @@ msgstr ""
 #. module: crm
 #: view:crm.lead:crm.crm_case_kanban_view_leads
 msgid "Send Email"
-msgstr ""
+msgstr "Emaila Bidali"
 
 #. module: crm
 #: field:crm.case.stage,sequence:0
@@ -2613,7 +2615,7 @@ msgstr ""
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 msgid "Show only lead"
-msgstr ""
+msgstr "Ekimenak erakutsi"
 
 #. module: crm
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
@@ -2629,7 +2631,7 @@ msgstr ""
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor2
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
@@ -2641,7 +2643,7 @@ msgstr ""
 #: model:ir.model,name:crm.model_crm_tracking_source
 #: model:ir.ui.menu,name:crm.menu_crm_tracking_source
 msgid "Source"
-msgstr ""
+msgstr "Iturria"
 
 #. module: crm
 #: field:crm.tracking.source,name:0
@@ -2712,23 +2714,23 @@ msgstr "Egoera"
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation-view
 msgid "Stop Process"
-msgstr ""
+msgstr "Prozesua Gelditu"
 
 #. module: crm
 #: field:crm.lead,street:0
 msgid "Street"
-msgstr ""
+msgstr "Kalea"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor
 msgid "Street..."
-msgstr ""
+msgstr "Kalea..."
 
 #. module: crm
 #: field:crm.lead,street2:0
 msgid "Street2"
-msgstr ""
+msgstr "Kalea2"
 
 #. module: crm
 #: field:crm.lead,name:0
@@ -2743,18 +2745,18 @@ msgstr ""
 #. module: crm
 #: field:crm.lead,message_summary:0 field:crm.phonecall,message_summary:0
 msgid "Summary"
-msgstr ""
+msgstr "Laburpena"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
 msgid "Tag"
-msgstr ""
+msgstr "Etiketa"
 
 #. module: crm
 #: field:crm.lead,categ_ids:0
 msgid "Tags"
-msgstr ""
+msgstr "Etiketak"
 
 #. module: crm
 #: help:crm.case.section,alias_id:0
@@ -2883,7 +2885,7 @@ msgstr ""
 #: view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor field:crm.lead,title:0
 msgid "Title"
-msgstr ""
+msgstr "Titulua"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -2917,7 +2919,7 @@ msgstr "Egitekoa"
 #. module: crm
 #: model:ir.ui.menu,name:crm.root_menu
 msgid "Tools"
-msgstr ""
+msgstr "Tresnak"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_top_opportunities
@@ -2988,7 +2990,7 @@ msgstr ""
 #: field:crm.lead.report,user_id:0 field:crm.opportunity.report,user_id:0
 #: field:crm.phonecall.report,user_id:0
 msgid "User"
-msgstr ""
+msgstr "Erabiltzailea"
 
 #. module: crm
 #: field:crm.lead,user_email:0
@@ -3008,7 +3010,7 @@ msgstr ""
 #. module: crm
 #: field:crm.segmentation.line,expr_value:0
 msgid "Value"
-msgstr ""
+msgstr "Balioa"
 
 #. module: crm
 #: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0
@@ -3029,7 +3031,7 @@ msgstr ""
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:105
 #, python-format
 msgid "Warning!"
-msgstr ""
+msgstr "Kontuz!"
 
 #. module: crm
 #: help:crm.lead,section_id:0
@@ -3040,7 +3042,7 @@ msgstr ""
 #. module: crm
 #: field:base.partner.merge.line,wizard_id:0
 msgid "Wizard"
-msgstr ""
+msgstr "Laguntzailea"
 
 #. module: crm
 #: model:crm.case.stage,name:crm.stage_lead6
@@ -3048,7 +3050,7 @@ msgstr ""
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 msgid "Won"
-msgstr ""
+msgstr "Irabazia"
 
 #. module: crm
 #: field:crm.case.section,resource_calendar_id:0
@@ -3064,6 +3066,12 @@ msgid ""
 msgstr ""
 
 #. module: crm
+#: code:addons/crm/base_partner_merge.py:310
+#, python-format
+msgid "You cannot merge a contact with one of his parent."
+msgstr ""
+
+#. module: crm
 #: code:addons/crm/base_partner_merge.py:446
 #, python-format
 msgid "You have to specify a filter for your selection"
@@ -3073,12 +3081,12 @@ msgstr ""
 #: view:crm.lead:crm.crm_case_form_view_leads
 #: view:crm.lead:crm.crm_case_form_view_oppor
 msgid "ZIP"
-msgstr ""
+msgstr "Posta kodea"
 
 #. module: crm
 #: field:crm.lead,zip:0
 msgid "Zip"
-msgstr ""
+msgstr "Posta kodea"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_oppor
@@ -3094,13 +3102,13 @@ msgstr ""
 #: code:addons/crm/crm_lead.py:971
 #, python-format
 msgid "lead"
-msgstr ""
+msgstr "ekimena"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:91
 #, python-format
 msgid "leads"
-msgstr ""
+msgstr "ekimenak"
 
 #. module: crm
 #: view:crm.phonecall:crm.crm_case_phone_form_view
@@ -3110,13 +3118,13 @@ msgstr ""
 #. module: crm
 #: view:crm.lead:crm.crm_case_kanban_view_leads
 msgid "oe_kanban_text_red"
-msgstr ""
+msgstr "oe_kanban_text_red"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:969
 #, python-format
 msgid "opportunity"
-msgstr ""
+msgstr "aukera"
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
@@ -3125,10 +3133,10 @@ msgstr ""
 #: view:crm.merge.opportunity:crm.merge_opportunity_form
 #: view:crm.phonecall2phonecall:crm.phonecall_to_phonecall_view
 msgid "or"
-msgstr ""
+msgstr "edo"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:1069
 #, python-format
 msgid "unknown"
-msgstr ""
+msgstr "ezezaguna"

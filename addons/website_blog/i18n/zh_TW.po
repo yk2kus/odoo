@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-07-27 04:26+0000\n"
+"PO-Revision-Date: 2017-03-24 15:54+0000\n"
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/odoo/odoo-8/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -342,7 +342,7 @@ msgstr ""
 #: model:ir.model,name:website_blog.model_blog_blog
 #: model:ir.ui.menu,name:website_blog.menu_blog
 msgid "Blogs"
-msgstr ""
+msgstr "部落格"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_2
@@ -434,7 +434,7 @@ msgstr ""
 #: field:blog.blog,create_uid:0 field:blog.post.history.show_diff,create_uid:0
 #: field:blog.tag,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "建立者"
 
 #. module: website_blog
 #: field:blog.blog,create_date:0 field:blog.post,create_date:0
@@ -451,7 +451,7 @@ msgstr "日期"
 #. module: website_blog
 #: help:blog.blog,message_last_post:0 help:blog.post,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr ""
+msgstr "釋出到記錄上的最後資訊的日期"
 
 #. module: website_blog
 #. openerp-web
@@ -593,24 +593,24 @@ msgstr "最後的貢獻者"
 #. module: website_blog
 #: field:blog.blog,message_last_post:0 field:blog.post,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "最後訊息日期"
 
 #. module: website_blog
 #: field:blog.post,write_date:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "最後修改:"
 
 #. module: website_blog
 #: field:blog.blog,write_uid:0 field:blog.post.history,write_uid:0
 #: field:blog.post.history.show_diff,write_uid:0 field:blog.tag,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "最後更新："
 
 #. module: website_blog
 #: field:blog.blog,write_date:0 field:blog.post.history,write_date:0
 #: field:blog.post.history.show_diff,write_date:0 field:blog.tag,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "最後更新於"
 
 #. module: website_blog
 #: help:blog.post,history_ids:0
@@ -775,7 +775,7 @@ msgstr ""
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:10
 #, python-format
 msgid "Published"
-msgstr ""
+msgstr "已發佈"
 
 #. module: website_blog
 #: model:mail.message.subtype,description:website_blog.mt_blog_blog_published
@@ -974,12 +974,12 @@ msgstr ""
 #. module: website_blog
 #: field:blog.blog,website_message_ids:0 field:blog.post,website_message_ids:0
 msgid "Website Messages"
-msgstr ""
+msgstr "網站訊息"
 
 #. module: website_blog
 #: help:blog.blog,website_message_ids:0 help:blog.post,website_message_ids:0
 msgid "Website communication history"
-msgstr ""
+msgstr "網站溝通記錄"
 
 #. module: website_blog
 #: field:blog.blog,website_meta_description:0
@@ -1117,7 +1117,7 @@ msgstr ""
 #. module: website_blog
 #: view:website:website_blog.blog_post_complete
 msgid "on"
-msgstr ""
+msgstr "在"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_short

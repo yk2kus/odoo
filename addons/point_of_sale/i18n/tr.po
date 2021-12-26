@@ -4,15 +4,18 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
-# Murat Kaplan <muratk@projetgrup.com>, 2015
+# gezgin biri <gezginbiri@hotmail.com>, 2015
+# Güven YILMAZ <guvenyilmaz@outlook.com.tr>, 2016-2017
+# Levent Karakaş <levent@mektup.at>, 2017
+# Murat Kaplan <muratk@projetgrup.com>, 2015-2017
 # Saban Yildiz <sabany@projetgrup.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-08-07 09:29+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2017-06-28 18:55+0000\n"
+"Last-Translator: Levent Karakaş <levent@mektup.at>\n"
 "Language-Team: Turkish (http://www.transifex.com/odoo/odoo-8/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -253,7 +256,7 @@ msgstr "Hesap"
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "Accounting Information"
-msgstr "Muahsebe Bilgisi"
+msgstr "Muhasebe Bilgisi"
 
 #. module: point_of_sale
 #: help:pos.config,journal_id:0
@@ -359,7 +362,7 @@ msgstr "Ödeme Yöntemleri"
 #. module: point_of_sale
 #: field:product.template,available_in_pos:0
 msgid "Available in the Point of Sale"
-msgstr "Satış Noktası Mevcuttur"
+msgstr "Satış Noktasında Mevcut"
 
 #. module: point_of_sale
 #: field:report.pos.order,average_price:0
@@ -396,7 +399,7 @@ msgstr "BarKod"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:391
 #, python-format
 msgid "Barcode"
-msgstr "Barcode"
+msgstr "Barkod"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
@@ -481,7 +484,7 @@ msgstr "İptal"
 #. module: point_of_sale
 #: selection:pos.order,state:0 selection:report.pos.order,state:0
 msgid "Cancelled"
-msgstr "İptalEdildi"
+msgstr "İptal Edildi"
 
 #. module: point_of_sale
 #. openerp-web
@@ -563,7 +566,7 @@ msgstr "Müşteriyi Değiştir"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1008
 #, python-format
 msgid "Change:"
-msgstr "Değişim:"
+msgstr "Para Üstü:"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.chaudfontaine_1,5l_product_template
@@ -679,7 +682,7 @@ msgstr "Chips"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:321
 #, python-format
 msgid "City"
-msgstr "İl"
+msgstr "Semt/Mahalle"
 
 #. module: point_of_sale
 #: view:pos.session.opening:point_of_sale.pos_session_opening_form_view
@@ -1033,7 +1036,7 @@ msgstr "Hata Ayıklama Penceresi"
 #. module: point_of_sale
 #: field:res.users,pos_config:0
 msgid "Default Point of Sale"
-msgstr "Öntanımlı SatışNoktası"
+msgstr "Öntanımlı Satış Noktası"
 
 #. module: point_of_sale
 #: field:report.pos.order,delay_validation:0
@@ -1303,7 +1306,7 @@ msgstr "Entegre Sanal Klavye sağlar"
 #. module: point_of_sale
 #: help:pos.config,iface_invoicing:0
 msgid "Enables invoice generation from the Point of Sale"
-msgstr "Satış Noktası' da fatura oluşumunu etkinleştir"
+msgstr "Satış Noktasında fatura oluşumunu etkinleştir"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_detailsofsales
@@ -1408,7 +1411,7 @@ msgstr "Ekstra Flandria hindiba"
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "Extra Info"
-msgstr "Eksra Bilgisi"
+msgstr "Diğer Bilgiler"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fanta_orange_25cl_product_template
@@ -1546,7 +1549,7 @@ msgstr "Gruplandır"
 #. module: point_of_sale
 #: field:pos.config,group_by:0
 msgid "Group Journal Items"
-msgstr "Grup Yevmiye Öğeleri"
+msgstr "Grup Yevmiye Kalemleri"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1714,7 +1717,7 @@ msgstr "Yevmiye"
 #. module: point_of_sale
 #: field:pos.order,account_move:0
 msgid "Journal Entry"
-msgstr "Yevmiye Girişleri"
+msgstr "Yevmiye Kayıtları"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
@@ -1958,7 +1961,7 @@ msgstr "Adı"
 #. module: point_of_sale
 #: field:report.transaction.pos,invoice_id:0
 msgid "Nbr Invoice"
-msgstr "Nnr Fatura"
+msgstr "Fatura Sayısı"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2568,7 +2571,7 @@ msgstr "Pos Oturum Açın"
 #: view:res.users:point_of_sale.res_users_form_view
 #: view:website:point_of_sale.report_sessionsummary
 msgid "Point of Sale"
-msgstr "SatışNoktası(POS)"
+msgstr "Satış Noktası"
 
 #. module: point_of_sale
 #: view:report.pos.order:point_of_sale.view_report_pos_order_graph
@@ -2579,7 +2582,7 @@ msgstr "Satış Noktası Analizi"
 #. module: point_of_sale
 #: field:product.template,income_pdt:0
 msgid "Point of Sale Cash In"
-msgstr "SatışNoktası Nakit Olarak"
+msgstr "Satış Noktası Nakit Olarak"
 
 #. module: point_of_sale
 #: field:product.template,expense_pdt:0
@@ -2634,7 +2637,7 @@ msgstr "Satış Notası Oturumu"
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_config_pos
 #: view:pos.session:point_of_sale.view_pos_session_search
 msgid "Point of Sales"
-msgstr "SatışNoktası"
+msgstr "Satış Noktası"
 
 #. module: point_of_sale
 #: view:pos.category:point_of_sale.product_pos_category_form_view
@@ -2719,7 +2722,7 @@ msgstr "Fişi Yazdır"
 #. module: point_of_sale
 #: view:pos.details:point_of_sale.view_pos_details
 msgid "Print Report"
-msgstr "Rapor Yazdır"
+msgstr "Yazdır"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_payment
@@ -2818,7 +2821,7 @@ msgstr "Para Koy"
 #: view:website:point_of_sale.report_usersproduct
 #, python-format
 msgid "Qty"
-msgstr "Mik."
+msgstr "Miktar"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_detailsofsales
@@ -2947,7 +2950,7 @@ msgstr "Satış Detayları"
 #. module: point_of_sale
 #: field:pos.config,journal_id:0 field:pos.order,sale_journal:0
 msgid "Sale Journal"
-msgstr "Satış Yevmiye"
+msgstr "Satış Yevmiyesi"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_order_line
@@ -2964,7 +2967,7 @@ msgstr "Satış Detayları"
 #. module: point_of_sale
 #: field:report.transaction.pos,journal_id:0
 msgid "Sales Journal"
-msgstr "Satış Yevmiye"
+msgstr "Satış Yevmiyesi"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_lines_report
@@ -3164,7 +3167,7 @@ msgstr "Oturumlar"
 #: code:addons/point_of_sale/static/src/js/screens.js:681
 #, python-format
 msgid "Set Customer"
-msgstr "Müşteri Yerleştir"
+msgstr "Müşteri Seç"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3609,7 +3612,7 @@ msgstr "Ödemeleri alabilmeniz için sistem bütün nakit kasalarınızı açaca
 #, python-format
 msgid ""
 "The type of the journal for your payment method should be bank or cash "
-msgstr ""
+msgstr "Ödemelerinizin kayıt tipi banka veya nakit olmalıdır."
 
 #. module: point_of_sale
 #: field:pos.session,cash_register_balance_end:0
@@ -3640,7 +3643,7 @@ msgid ""
 "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
-msgstr ""
+msgstr "Para üstü verilebilmesi için gerekli olan nakit ödeme metodu bu satış noktasında mevcut değildir.\n\nLütfen tam miktarı ödeyiniz veya satış noktası yapılandırmasında nakit ödeme metodunu ekleyiniz."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_box.py:23
@@ -3700,7 +3703,7 @@ msgstr "Bu işlem yerel depolama alanından tüm gönderilmeyen siparişleri yok
 msgid ""
 "This sequence is automatically created by Odoo but you can change it to "
 "customize the reference numbers of your orders."
-msgstr ""
+msgstr "Sıralama Odoo tarafından otomatik olarak yaratılmaktadır ancak siparişlerinizin referans numaralarını özelleştirmek için değiştirlebilirsiniz."
 
 #. module: point_of_sale
 #: help:product.template,pos_categ_id:0
@@ -3890,7 +3893,7 @@ msgstr "Bilinmeyen Barkod"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:914
 #, python-format
 msgid "Unknown Customer"
-msgstr ""
+msgstr "Bilinmeyen Müşteri"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4024,7 +4027,7 @@ msgstr "Sen \"Satış Başlat\" tıklayarak dokunmatik ekran arayüzü satış d
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "You can define another list of available currencies on the"
-msgstr "Mevcut parabirimini başka bir liste tanımlayabilirsiniz"
+msgstr "Mevcut para birimini başka bir liste tanımlayabilirsiniz"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:640
@@ -4073,7 +4076,7 @@ msgstr "Bir Banka ödeme negatif bir miktar olamaz. Müşteriye para dönmek iç
 #. module: point_of_sale
 #: constraint:pos.config:0
 msgid "You cannot have two cash controls in one Point Of Sale !"
-msgstr "Sen bir SatışNoktasından iki nakiti kontrol edemezsin !"
+msgstr "Bir Satış Noktasından iki nakit kasayı kontrol edemezsiniz !"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:545
@@ -4093,7 +4096,7 @@ msgid ""
 "Method\" from the \"Point of Sale\" tab. You can also create new payment "
 "methods directly from menu \"PoS Backend / Configuration / Payment "
 "Methods\"."
-msgstr ""
+msgstr "Satış noktasında kullanılabilir ödeme yöntemlerini mevcut kasa ve bankaları \"Muhasebe / Yapılandırma / Yevmiyeler / Yevmiyeler\" üzerinden tanımlayabilirsiniz. Bir yevmiye seçin ve \"Satış Noktası\" sekmesindeki \"POS Ödeme Yöntemi\" kutusunu işaretleyin. \"POS / Yapılandırma / Ödeme Yöntemleri\" menüsünü kullanarak ödeme yöntemlerini direk yaratabilirsiniz."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:887
@@ -4149,7 +4152,7 @@ msgid ""
 "Your ending balance is too different from the theoretical cash closing "
 "(%.2f), the maximum allowed is: %.2f. You can contact your manager to force "
 "it."
-msgstr ""
+msgstr "Kapanış bakiyeniz teorik nakit kapanışından çok farklıdır (%.2f), müsaade edilen maksimum : %.2f'dir. Yöneticiniz ile iletişime geçerek bunu değiştirebilrsiniz."
 
 #. module: point_of_sale
 #. openerp-web
@@ -4225,7 +4228,7 @@ msgstr "hata!"
 #: code:addons/point_of_sale/point_of_sale.py:140
 #, python-format
 msgid "not used"
-msgstr "kullanılmaz"
+msgstr "Kullanılabilir"
 
 #. module: point_of_sale
 #. openerp-web

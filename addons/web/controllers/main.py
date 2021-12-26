@@ -33,7 +33,6 @@ import openerp
 import openerp.modules.registry
 from openerp.addons.base.ir.ir_qweb import AssetsBundle, QWebTemplateNotFound
 from openerp.modules import get_module_resource
-from openerp.service import model as service_model
 from openerp.tools import topological_sort
 from openerp.tools.translate import _
 from openerp.tools import ustr
@@ -102,7 +101,7 @@ def ensure_db(redirect='/web/database/selector'):
     # If the db is taken out of a query parameter, it will be checked against
     # `http.db_filter()` in order to ensure it's legit and thus avoid db
     # forgering that could lead to xss attacks.
-    db = request.params.get('db')
+    db = request.params.get('db') and request.params.get('db').strip()
 
     # Ensure db is legit
     if db and db not in http.db_filter([db]):
@@ -451,8 +450,8 @@ def content_disposition(filename):
     version = int((request.httprequest.user_agent.version or '0').split('.')[0])
     if browser == 'msie' and version < 9:
         return "attachment; filename=%s" % escaped
-    elif browser == 'safari':
-        return u"attachment; filename=%s" % filename
+    elif browser == 'safari' and version < 537:
+        return u"attachment; filename=%s" % filename.encode('ascii', 'replace')
     else:
         return "attachment; filename*=UTF-8''%s" % escaped
 
@@ -511,7 +510,7 @@ class Home(http.Controller):
             if uid is not False:
                 return http.redirect_with_hash(redirect)
             request.uid = old_uid
-            values['error'] = "Wrong login/password"
+            values['error'] = _("Wrong login/password")
         if request.env.ref('web.login', False):
             return request.render('web.login', values)
         else:
@@ -934,10 +933,7 @@ class DataSet(http.Controller):
         if method.startswith('_'):
             raise Exception("Access Denied: Underscore prefixed methods cannot be remotely called")
 
-        @service_model.check
-        def checked_call(__dbname, *args, **kwargs):
-            return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
-        return checked_call(request.db, *args, **kwargs)
+        return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
 
     @http.route('/web/dataset/call', type='json', auth="user")
     def call(self, model, method, args, domain_id=None, context_id=None):
@@ -1436,7 +1432,7 @@ class ExportFormat(object):
 
         Model = request.session.model(model)
         context = dict(request.context or {}, **params.get('context', {}))
-        ids = ids or Model.search(domain, 0, False, False, context)
+        ids = ids or Model.search(domain, offset=0, limit=False, order=False, context=context)
 
         if not request.env[model]._is_an_ordinary_table():
             fields = [field for field in fields if field['name'] != 'id']
@@ -1479,8 +1475,7 @@ class CSVExport(ExportFormat, http.Controller):
         for data in rows:
             row = []
             for d in data:
-                if isinstance(d, basestring):
-                    d = d.replace('\n',' ').replace('\t',' ')
+                if isinstance(d, unicode):
                     try:
                         d = d.encode('utf-8')
                     except UnicodeError:
@@ -1592,7 +1587,7 @@ class Reports(http.Controller):
         if 'name' not in action:
             reports = request.session.model('ir.actions.report.xml')
             res_id = reports.search([('report_name', '=', action['report_name']),],
-                                    0, False, False, context)
+                                    context=context)
             if len(res_id) > 0:
                 file_name = reports.read(res_id[0], ['name'], context)['name']
             else:

@@ -23,7 +23,7 @@ from datetime import datetime, date
 from lxml import etree
 import time
 
-from openerp import SUPERUSER_ID
+from openerp import SUPERUSER_ID, api
 from openerp import tools
 from openerp.addons.resource.faces import task as Task
 from openerp.osv import fields, osv
@@ -673,6 +673,7 @@ class task(osv.osv):
     def onchange_planned(self, cr, uid, ids, planned=0.0, effective=0.0):
         return {'value': {'remaining_hours': planned - effective}}
 
+    @api.cr_uid_ids_context
     def onchange_project(self, cr, uid, id, project_id, context=None):
         if project_id:
             project = self.pool.get('project.project').browse(cr, uid, project_id, context=context)
@@ -698,9 +699,12 @@ class task(osv.osv):
     def copy_data(self, cr, uid, id, default=None, context=None):
         if default is None:
             default = {}
+        current = self.browse(cr, uid, id, context=context)
         if not default.get('name'):
-            current = self.browse(cr, uid, id, context=context)
             default['name'] = _("%s (copy)") % current.name
+        if 'remaining_hours' not in default:
+            default['remaining_hours'] = current.planned_hours
+
         return super(task, self).copy_data(cr, uid, id, default, context)
 
     def _is_template(self, cr, uid, ids, field_name, arg, context=None):
@@ -964,7 +968,7 @@ class task(osv.osv):
                 'remaining_hours': delegate_data['planned_hours_me'],
                 'planned_hours': delegate_data['planned_hours_me'] + (task.effective_hours or 0.0),
                 'name': newname,
-            }, context=context)
+            })
             delegated_tasks[task.id] = delegated_task_id
         return delegated_tasks
 

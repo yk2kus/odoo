@@ -4,14 +4,15 @@
 # 
 # Translators:
 # danimaribeiro <danimaribeiro@gmail.com>, 2015
+# grazziano <g.negocios@outlook.com.br>, 2016
 # Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-08-31 03:45+0000\n"
-"Last-Translator: danimaribeiro <danimaribeiro@gmail.com>\n"
+"PO-Revision-Date: 2016-07-11 12:30+0000\n"
+"Last-Translator: grazziano <g.negocios@outlook.com.br>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/odoo/odoo-8/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,19 +44,19 @@ msgid ""
 "                  a talk, a round table, a meeting, etc.\n"
 "              </p>\n"
 "            "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\nClique para adicionar uma faixa.\n</p><p>\nFaixas definem a agenda do seu evento. Estas podem ser\numa palestra, uma mesa redonda, uma reunião, etc.\n</p>\n            "
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
 "A technical explanation of Odoo as a CMS and a eCommerce platform for "
 "version 8."
-msgstr ""
+msgstr "Uma explicação técnica do Odoo como um CMS e uma plataforma de comércio eletrônico para a versão 8."
 
 #. module: website_event_track
 #: field:event.event,allowed_track_tag_ids:0
 msgid "Accepted Tags"
-msgstr "Etiquetas Aceitas"
+msgstr "Marcadores Aceitos"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
@@ -76,7 +77,7 @@ msgstr "Agenda"
 #. module: website_event_track
 #: view:website:website_event_track.tracks
 msgid "All Tags"
-msgstr "Todas as Marcas"
+msgstr "Todos os Marcadores"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -177,7 +178,7 @@ msgstr "Roteiro detalhado de contabilidade novos módulos e melhorias para a ver
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
 "Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
-msgstr "Descubra o Odoo CRM: Como otimizar suas vendas, a partir de prospectos até ordens de venda."
+msgstr "Descubra o CRM Odoo: Como otimizar suas vendas, a partir de prospectos até ordens de venda."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
@@ -197,7 +198,7 @@ msgstr "Duração"
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_kanban
 msgid "Edit Track"
-msgstr "Editar Trilha"
+msgstr "Editar Faixa"
 
 #. module: website_event_track
 #: field:event.sponsor,event_id:0
@@ -216,7 +217,7 @@ msgstr "Blog do Evento"
 #: view:event.track.location:website_event_track.view_event_location_form
 #: view:event.track.location:website_event_track.view_event_location_tree
 msgid "Event Location"
-msgstr "Localização do Evento"
+msgstr "Local do Evento"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_location
@@ -251,13 +252,13 @@ msgstr "Estágios de Eventos"
 #: view:event.tag:website_event_track.view_event_tag_tree
 #: field:event.tag,name:0
 msgid "Event Tag"
-msgstr "tag de eventos"
+msgstr "Marcador de Evento"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_tag
 #: model:ir.ui.menu,name:website_event_track.menu_event_tag
 msgid "Event Tags"
-msgstr "Tags de evento"
+msgstr "Marcadores de Eventos"
 
 #. module: website_event_track
 #: field:event.event,timezone_of_event:0
@@ -268,14 +269,14 @@ msgstr "Fuso horário do evento"
 #: view:event.track:website_event_track.view_event_track_form
 #: view:event.track:website_event_track.view_event_track_tree
 msgid "Event Track"
-msgstr "Registro dos eventos"
+msgstr "Faixa de Evento"
 
 #. module: website_event_track
 #: view:event.track.tag:website_event_track.view_event_track_tag_form
 #: view:event.track.tag:website_event_track.view_event_track_tag_tree
 #: field:event.track.tag,name:0
 msgid "Event Track Tag"
-msgstr "Tags para Trilha de Evento"
+msgstr "Marcador de Faixa de Evento"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_calendar
@@ -300,7 +301,7 @@ msgstr "Preencha o formulário abaixo para propor a sua palestra."
 #. module: website_event_track
 #: view:website:website_event_track.agenda
 msgid "Filter Tracks..."
-msgstr "Filtrar Trilhas ..."
+msgstr "Filtrar Faixas..."
 
 #. module: website_event_track
 #: view:website:website_event_track.track_view
@@ -351,7 +352,7 @@ msgstr "Contém o resumo da conversação (número de mensagens, ...). Este resu
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
 "with Odoo."
-msgstr "Como construir sua estratégia de marketing com o objetivo de geração de leads com Odoo."
+msgstr "Como construir sua estratégia de marketing com o objetivo de geração de prospectos com o Odoo."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
@@ -390,7 +391,7 @@ msgstr "ID"
 #. module: website_event_track
 #: help:event.track,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "Se marcado novas mensagens solicitarão sua atenção."
+msgstr "Se marcado, novas mensagens solicitarão sua atenção."
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -437,12 +438,12 @@ msgstr "Palestras Rápidas "
 #. module: website_event_track
 #: help:event.event,allowed_track_tag_ids:0
 msgid "List of available tags for track proposals."
-msgstr "Lista de tags disponíveis para apresentação de propostas para a trilha."
+msgstr "Lista de marcadores disponíveis para apresentação de propostas para a faixa."
 
 #. module: website_event_track
 #: field:event.track,location_id:0 view:website:website_event_track.track_view
 msgid "Location"
-msgstr "Localização"
+msgstr "Local"
 
 #. module: website_event_track
 #: field:event.sponsor,image_medium:0
@@ -462,7 +463,7 @@ msgstr "Almoço"
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track22
 msgid "Manage your KPIs (recomended to openERP partners)."
-msgstr ""
+msgstr "Gerencie seus KPIs (recomendados aos parceiros Odoo)."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
@@ -477,12 +478,12 @@ msgstr "Médio (*)"
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track25
 msgid "Merge proposals review, code sprint (entire afternoon)"
-msgstr ""
+msgstr "Mesclar propostas avaliação, sprint código (toda tarde)"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track24
 msgid "Merge proposals review, code sprint (entire day)."
-msgstr ""
+msgstr "Mesclar propostas avaliação, sprint código (dia inteiro)."
 
 #. module: website_event_track
 #: field:event.track,message_ids:0
@@ -524,17 +525,17 @@ msgstr "Notícias"
 #. module: website_event_track
 #: view:website:website_event_track.tracks
 msgid "No tracks found!"
-msgstr "Não há trilhas encontradas!"
+msgstr "Nenhuma faixa encontrada!"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
 msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr ""
+msgstr "Odoo Mobile para Notas, Reuniões e Mensagens."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
 msgid "Odoo Status & Strategy 2014"
-msgstr ""
+msgstr "Estado e Estratégia Odoo 2014"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
@@ -574,7 +575,7 @@ msgstr "Propostas"
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
 msgid "Proposals are closed!"
-msgstr ""
+msgstr "As propostas estão fechadas!"
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage3
@@ -587,22 +588,22 @@ msgid ""
 "Put here the list of documents, like slides of\n"
 "                            the presentations. Remove the above t-if when\n"
 "                            it's implemented."
-msgstr ""
+msgstr "Coloque aqui a lista de documentos, como slides de\napresentações. Remover o t-if acima quando\nele for implementado."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track10
 msgid "Raising qualitive insights with the survey app"
-msgstr ""
+msgstr "Levantando percepções qualitativas com o aplicativo pesquisa"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
 msgid "Recruiting high skilled talents with Odoo HR apps"
-msgstr ""
+msgstr "Recrutar altos talentos qualificados com Odoo aplicativos de RH"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
 msgid "Regular Talks"
-msgstr ""
+msgstr "Conversações Regulares"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_search
@@ -613,7 +614,7 @@ msgstr "Responsável"
 #. module: website_event_track
 #: model:event.track.tag,name:website_event_track.event_track_tag4
 msgid "Round Table"
-msgstr ""
+msgstr "Mesa Redonda"
 
 #. module: website_event_track
 #: field:event.sponsor,sequence:0 field:event.sponsor.type,sequence:0
@@ -629,12 +630,12 @@ msgstr "Prata"
 #. module: website_event_track
 #: view:website:website_event_track.track_view
 msgid "Social Stream"
-msgstr ""
+msgstr "Stream Social"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
 msgid "Speaker Biography"
-msgstr ""
+msgstr "Biografia do Palestrante"
 
 #. module: website_event_track
 #: field:event.track,speaker_ids:0
@@ -644,13 +645,13 @@ msgstr "Caixas de som"
 #. module: website_event_track
 #: field:event.sponsor.type,name:0
 msgid "Sponsor Type"
-msgstr ""
+msgstr "Tipo de Patrocinador"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_sponsor_type
 #: model:ir.ui.menu,name:website_event_track.menu_event_sponsor_type
 msgid "Sponsor Types"
-msgstr ""
+msgstr "Tipos de Patrocinador"
 
 #. module: website_event_track
 #: field:event.sponsor,url:0
@@ -708,7 +709,7 @@ msgstr "Marcadores"
 #. module: website_event_track
 #: field:event.event,tracks_tag_ids:0
 msgid "Tags of Tracks"
-msgstr "Tags de Trilhas"
+msgstr "Marcadores de Faixas"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -778,50 +779,50 @@ msgstr "Este evento não aceita propostas."
 msgid ""
 "Timely release of presentation material (slides),\n"
 "                                    for publishing on our website."
-msgstr ""
+msgstr "Liberação oportuna de material de apresentação (slides),\n                                     para publicar no nosso site."
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_form
 msgid "Track"
-msgstr "Trilha"
+msgstr "Faixa"
 
 #. module: website_event_track
 #: field:event.track,date:0
 msgid "Track Date"
-msgstr "Data da trilha"
+msgstr "Data da Faixa"
 
 #. module: website_event_track
 #: field:event.track,description:0
 msgid "Track Description"
-msgstr "Descrição da trilha"
+msgstr "Descrição da Faixa"
 
 #. module: website_event_track
 #: field:event.track.location,name:0
 msgid "Track Rooms"
-msgstr "Salas da trilha"
+msgstr "Salas da Faixa"
 
 #. module: website_event_track
 #: field:event.track.stage,name:0
 msgid "Track Stage"
-msgstr "Trilha Stage"
+msgstr "Estágio da Faixa"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_tag
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_tag
 msgid "Track Tags"
-msgstr "Tags de Trilha"
+msgstr "Marcadores de Faixa"
 
 #. module: website_event_track
 #: field:event.track,name:0
 msgid "Track Title"
-msgstr "Título da trilha"
+msgstr "Título da Faixa"
 
 #. module: website_event_track
 #: view:event.event:website_event_track.view_event_form
 #: field:event.event,count_tracks:0 field:event.event,track_ids:0
 #: view:event.track:website_event_track.view_event_track_graph
 msgid "Tracks"
-msgstr "Trilhas"
+msgstr "Faixas"
 
 #. module: website_event_track
 #: field:event.track,message_unread:0
@@ -831,12 +832,12 @@ msgstr "Mensagens não lidas"
 #. module: website_event_track
 #: view:website:website_event_track.track_view
 msgid "Use this tag:"
-msgstr "Use esta tag:"
+msgstr "Use este marcador:"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_kanban
 msgid "View Track"
-msgstr "Ver Trilha"
+msgstr "Ver Faixa"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -853,7 +854,7 @@ msgid ""
 "                                interesting and potentially useful to the\n"
 "                                audience, it will be considered for\n"
 "                                inclusion in the programme."
-msgstr ""
+msgstr "Vamos aceitar uma ampla gama de\napresentações, a partir de relatórios sobre projetos\nacadêmicos e comerciais para tutoriais e casos de\nestudo. Contanto que a apresentação seja\ninteressante e potencialmente útil para a\naudiência, ela será considerada para\ninclusão no programa."
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal_success
@@ -898,7 +899,7 @@ msgstr "Site Url"
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
 msgid "Your Email"
-msgstr "Seu email"
+msgstr "Seu E-mail"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -913,7 +914,7 @@ msgstr "Seu Telefone"
 #. module: website_event_track
 #: view:website:website_event_track.tracks
 msgid "col-md-3 css_no_print"
-msgstr ""
+msgstr "col-md-3 css_no_print"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_form

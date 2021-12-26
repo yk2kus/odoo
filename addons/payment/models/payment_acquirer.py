@@ -2,6 +2,7 @@
 
 import logging
 
+import openerp
 from openerp.osv import osv, fields
 from openerp.tools import float_round, float_repr
 from openerp.tools.translate import _
@@ -59,7 +60,7 @@ class PaymentAcquirer(osv.Model):
     _provider_selection = lambda self, *args, **kwargs: self._get_providers(*args, **kwargs)
 
     _columns = {
-        'name': fields.char('Name', required=True),
+        'name': fields.char('Name', required=True, translate=True),
         'provider': fields.selection(_provider_selection, string='Provider', required=True),
         'company_id': fields.many2one('res.company', 'Company', required=True),
         'pre_msg': fields.html('Message', translate=True,
@@ -453,6 +454,14 @@ class PaymentTransaction(osv.Model):
             'partner_country_id': partner and partner.country_id.id or False,
             'partner_phone': partner and partner.phone or False,
         }}
+
+    def get_next_reference(self, cr, uid, reference, context=None):
+        ref_suffix = 1
+        init_ref = reference
+        while self.pool['payment.transaction'].search_count(cr, openerp.SUPERUSER_ID, [('reference', '=', reference)], context=context):
+            reference = init_ref + '-' + str(ref_suffix)
+            ref_suffix += 1
+        return reference
 
     # --------------------------------------------------
     # FORM RELATED METHODS
